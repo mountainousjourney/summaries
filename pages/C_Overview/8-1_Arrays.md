@@ -22,10 +22,9 @@ summary:
 ### Variable-Length Arrays in C (C99 Standard)
 - Variable-Length Arrays have been introduced in the standard *C99*. They cannot take an initializer value.
 - Example in code :
+
 ```c
 int n;
-....
 // We take n as an input from the user
-
 int a[n];
 ```
