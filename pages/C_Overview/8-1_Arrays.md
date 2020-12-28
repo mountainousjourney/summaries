@@ -13,11 +13,19 @@ summary:
 - We can use the ```sizeof``` operator to verify the size of an array : ```sizeof(a)/sizeof(a[0])```.
 
 ### Multidimensional Arrays in C
-- Multidimensional Arrays can be declared and initialized in C using the following method : ```int a[2][2] = {{4,5},{2,3}}```
+- Multidimensional Arrays can be declared and initialized in C using the following method : 
+- 
+```c
+int a[2][2] = {{4,5},{2,3}}
+```
 
 ### Constant Arrays
 - One-dimensional / Multidimensional array can be made constant in C. This means that they are not able to be modified in the code, and any attempt will be detected by the compiler.
-- Example in code : ```const int a[2][2] = {{4,5},{2,3}}```
+- Example in code : 
+
+```c
+const int a[2][2] = {{4,5},{2,3}}
+```
 
 ### Variable-Length Arrays in C (C99 Standard)
 - Variable-Length Arrays have been introduced in the standard *C99*. They cannot take an initializer value.
