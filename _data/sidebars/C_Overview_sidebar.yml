@@ -1,0 +1,92 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: A Modern Overview of C
+  version: 
+  folders:
+  
+  - title: Introducing C
+    output: web
+    folderitems:
+    
+    - title: Introduction
+      url: /Introduction.html
+      output: web
+      
+  - title: C Fundamentals
+    output: web
+    folderitems:
+    
+  - title: Formatted Input/Output
+    output: web
+    folderitems:
+    
+  - title: Expressions
+    output: web
+    folderitems:
+
+  - title: Selection Statements
+    output: web
+    folderitems:
+
+  - title: Loops
+    output: web
+    folderitems:
+    
+  - title: Basic Types
+    output: web
+    folderitems:
+    
+  - title: Arrays
+    output: web
+    folderitems:
+    
+  - title: Functions
+    output: web
+    folderitems:
+    
+  - title: Program Organization
+    output: web
+    folderitems:
+    
+  - title: Pointers
+    output: web
+    folderitems:
+    
+  - title: Pointers & Arrays
+    output: web
+    folderitems:
+
+  - title: Strings
+    output: web
+    folderitems:
+
+  - title: The Preprocessor
+    output: web
+    folderitems:
+    
+  - title: Writing Large Programs
+    output: web
+    folderitems:
+    
+  - title: Structures, Unions, and Enumerations
+    output: web
+    folderitems:
+    
+  - title: Advanced Uses of Pointers
+    output: web
+    folderitems:
+    
+  - title: Declarations
+    output: web
+    folderitems:
+    
+  - title: Program Design
+    output: web
+    folderitems:
+    
+  - title: Low-Level Programming
+    output: web
+    folderitems:
+    
