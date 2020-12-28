@@ -5,10 +5,6 @@ entries:
   product: A Modern Overview of C
   version: 
   folders:
-  
-  - title: A Modern Overview of C
-    output: web
-    folderitems:
     
     - title: Introduction to C
     output: web
