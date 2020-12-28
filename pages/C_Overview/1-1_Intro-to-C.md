@@ -3,7 +3,7 @@ title: "Introduction to the C Language"
 keywords:
 tags:
 sidebar: C_Overview_sidebar
-permalink: C_1-1_Intro
+permalink: C_1-1_Intro-to-C
 summary:
 ---
 

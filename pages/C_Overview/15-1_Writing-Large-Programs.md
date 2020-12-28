@@ -24,6 +24,7 @@ Most C programs are not small enough to put in a single file. Typical C programs
 - The second form is used for header files written by programmers (e.g. ```#include "filename"```). The compiler usually searches in the same directory as the source code files, unless specified. It is better to give a relative path rather than an absolute path when including header files, as to not hinder portability.
 - A less used third form is used for preprocessing tokens. The preprocessor will scan the tokens and replace any macros it finds. After macro replacement, the resulting directive must match one of the other forms of include. This is especially useful if we'd rather let filenames be defined by macros, then hardcoded.
 - Example of the third form in code :
+
 ```c
 #if defined(IA32)
     #define CPU_FILE "ia32.h"
@@ -33,6 +34,7 @@ Most C programs are not small enough to put in a single file. Typical C programs
 
 #include CPU_FILE
 ```
+
 - It's important to note that it is very bad practice to include *.c* files in other source files, as it will cause unexpected issues. Try to only work with header files.
 
 ### Sharing Macro/Type Definitions
@@ -54,6 +56,7 @@ Most C programs are not small enough to put in a single file. Typical C programs
 ### Protecting Header Files
 - If a source file includes the same header file twice,due to header files including other header files, it might lead to compilation errors. It's good practice to protect header files against multiple inclusions by enclose the contents of the file in an ```#ifndef``` and ```endif``` pair.
 - Example in code :
+
 ```c
 // If the BOOLEAN_H macro is not defined, the preprocessor will allow the lines between #ifndef and #endif to stay.
 // If it is defined, then the contents will not be included.
@@ -66,6 +69,7 @@ typedef int Bool;
 
 #endif
 ```
+
 ### #error Directives in Header Files
 - To avoid using header files designed for a previous C standard, we can include the ```#error``` directive in header files.
 - Example in code :
@@ -90,6 +94,7 @@ typedef int Bool;
 ### Using Makefiles
 - The concept of a makefile originated with UNIX. It is a file containing the information necessary to build a program, like the list of files that are part of a program and all dependencies among the files.
 - Here is an example of a makefile :
+
 ```makefile
 justify: justify.o word.o line.o
     gcc -o justify justify.o word.o line.o
@@ -103,6 +108,7 @@ word.o: word.c word.h
 line.o: line.c line.h
     gcc -c line.c
 ```
+
 - In the previous example, there are four group of lines, with each specifying a certain **rule**. The first line in each rule specifies a **target** file, followed by which file it depends. The second line specifies the command to be executed if the file needs to be rebuilt because to a change to one of its dependent files.
 ### Errors during Linking
 - Some errors that can't be detected during compilation will be detected during the linking process. More particularly, this happens if the definition of a function or variable is missing from a program. The linker will be unable to resolve external references to it, causing an error. These errors are mostly caused by misspellings, missing giles, or missing libraries.

@@ -27,13 +27,14 @@ summary:
 
 ### Expression Evaluation
 Here's a complete table to understand the order of precedence with all operators in C :
+
 | Precedence | Operator Symbol |
 | -----------  |  ---------------- |
-|1|(postfix) ++, --|
-|2|(prefix) ++, --|
-|3|*, /, %|
-|4|+, -|
-|5|=, *=, /=, %=, +=, -=|
+| 1 | (postfix) ++, -- |
+| 2 | (prefix) ++, -- |
+| 3 | \*, /, % |
+| 4 | +, - |
+| 5 | =, \*=, /=, %=, +=, -= |
 
 ### Implementation-Defined Behavior
 
