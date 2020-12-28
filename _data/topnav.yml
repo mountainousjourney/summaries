@@ -4,6 +4,6 @@ topnav:
 - title: Topnav
   items:
     - title: A Modern Overview of C
-      url: /introduction
+      url: /1-1_Intro-to-C
     - title: GitHub Repository
       external_url: https://github.com/hsandid/mountainous-journey
