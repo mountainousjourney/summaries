@@ -42,6 +42,7 @@ else
 - The ```case``` statement is used to check whether the variable we have as parameter to the switch statement is equal to a certain value.
 - The ```default``` statement is used as a check if the variable we have as a parameter to the switch statement does not satisfies any of defined cases.
 - Here's an example of the ```switch``` statement in code :
+
 ```c
 switch (grade)
 {
@@ -58,5 +59,4 @@ switch (grade)
     default : printf("Illegal Grade");
              break;
 }
-
 ```
