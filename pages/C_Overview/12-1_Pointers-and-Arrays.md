@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_12-1_Pointers-and-Arrays
 summary:
 ---
+
 ### Pointer Arithmetic
 
 ### Using Pointers for Array Processing
