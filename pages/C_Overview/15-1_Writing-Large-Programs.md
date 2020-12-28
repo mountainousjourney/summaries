@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_15-1_Writing-Large-Programs
 summary:
 ---
+
 Most C programs are not small enough to put in a single file. Typical C programs usually consists of several source files and header files. Source files contain definitions of functions and external variables, while header files contain information to be shared among source files.
 
 ### C Source Files

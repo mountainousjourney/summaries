@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_13-1_Strings
 summary:
 ---
+
 ### Strings Literals
 
 ### String Variables

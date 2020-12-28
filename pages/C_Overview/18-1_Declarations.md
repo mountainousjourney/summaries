@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_18-1_Declarations
 summary:
 ---
+
 Declarations play a central role in C programming. This section explores sophisticated option that can be used in declarations for both variables and functions. The concepts of storage duration, scope and linkage are explored.
 ### Declaration Syntax
 - Declarations in C have the following appearance : ```declaration-specifiers declarators ;```. We are already familiar with Declarators, which provide the names and additional information about properties, but still have yet to see the different declaration specifiers.

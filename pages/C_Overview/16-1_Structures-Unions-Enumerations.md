@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_16-1_Structures-Unions-Enumerations
 summary:
 ---
+
 ### Structure Variables
 
 ### Structure Types

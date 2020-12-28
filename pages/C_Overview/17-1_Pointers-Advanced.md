@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_17-1_Pointers-Advanced
 summary:
 ---
+
 ### Dynamic Storage Allocation
 
 ### Dynamically Allocated Strings
