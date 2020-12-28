@@ -11,90 +11,90 @@ entries:
     folderitems:
     
     - title: Introduction to C
-      url: /1-1_Intro-to-C.html
+      url: /C_1-1_Intro-to-C.html
       output: web
       
     - title: Strengths and Weaknesses of C
-      url: /1-2_Strengths-Weaknesses-of-C.html
+      url: /C_1-2_Strengths-Weaknesses-of-C.html
       output: web
       
     - title: Overview of C Fundamentals
-      url: /2-1_C-Fundamentals.html
+      url: /C_2-1_C-Fundamentals.html
       output: web
     
     - title: Formatted Input/Output
-      url: /3-1_Formatted-Input-Output.html
+      url: /C_3-1_Formatted-Input-Output.html
       output: web
     
     - title: Expressions
-      url: /4-1_Expressions.html
+      url: /C_4-1_Expressions.html
       output: web
       
     - title: Selection Statements
-      url: /5-1_Selection-Statements.html
+      url: /C_5-1_Selection-Statements.html
       output: web
 
     - title: Loops
-      url: /6-1_Loops.html
+      url: /C_6-1_Loops.html
       output: web
     
     - title: Basic Types
-      url: /7-1_Basic-Types.html
+      url: /C_7-1_Basic-Types.html
       output: web
     
     - title: Arrays
-      url: /8-1_Arrays.html
+      url: /C_8-1_Arrays.html
       output: web
     
     - title: Functions
-      url: /9-1_Functions.html
+      url: /C_9-1_Functions.html
       output: web
     
     - title: Program Organization
-      url: /10-1_Program-Organization.html
+      url: /C_10-1_Program-Organization.html
       output: web
     
     - title: Pointers
-      url: /11-1_Pointers.html
+      url: /C_11-1_Pointers.html
       output: web
     
     - title: Pointers & Arrays
-      url: /12-1_Pointers-and-Arrays.html
+      url: /C_12-1_Pointers-and-Arrays.html
       output: web
 
     - title: Strings
-      url: /13-1_Strings.html
+      url: /C_13-1_Strings.html
       output: web
 
     - title: The Preprocessor
-      url: /14-1_Preprocessor.html
+      url: /C_14-1_Preprocessor.html
       output: web
     
     - title: Writing Large Programs
-      url: /15-1_Writing-Large-Programs.html
+      url: /C_15-1_Writing-Large-Programs.html
       output: web
     
     - title: Structures, Unions, and Enumerations
-      url: /16-1_Structures-Unions-Enumerations.html
+      url: /C_16-1_Structures-Unions-Enumerations.html
       output: web
     
     - title: Advanced Uses of Pointers
-      url: /17-1_Pointers-Advanced.html
+      url: /C_17-1_Pointers-Advanced.html
       output: web
     
     - title: Declarations
-      url: /18-1_Declarations.html
+      url: /C_18-1_Declarations.html
       output: web
     
     - title: Program Design
-      url: /19-1_Program-Design.html
+      url: /C_19-1_Program-Design.html
       output: web
     
     - title: Low-Level Programming
-      url: /20-1_Low-Level-Programming.html
+      url: /C_20-1_Low-Level-Programming.html
       output: web
       
     - title: The Standard C Library
-      url: /21-1_C-Standard-Library.html
+      url: /C_21-1_C-Standard-Library.html
       output: web
     
