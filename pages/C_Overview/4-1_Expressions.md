@@ -31,9 +31,9 @@ Here's a complete table to understand the order of precedence with all operators
 | -----------  |  ---------------- |
 |1|(postfix) ++, --|
 |2|(prefix) ++, --|
-|3|*, /, %|
+|3|\*, /, %|
 |4|+, -|
-|5|=, *=, /=, %=, +=, -=|
+|5|=, \*=, /=, %=, +=, -=|
 
 ### Implementation-Defined Behavior
 
