@@ -29,10 +29,12 @@ return-type function-name (parameters)
 
 ### Function Declarations in C
 - The location of a function declaration matters in C, as the compiler goes from top-to-bottom. If a function is called before being declared, the compiler will create an **implicit declaration** of the function.
-- C allows us to provide **function declarations** without needing to provide the full declaration itself. The function declaration must be consistent with the full definition of the function to avoid unexpected behavior. Example of a function declaration : ```return-type function-name ( parameters ) ;```
+- C allows us to provide **function declarations** without needing to provide the full declaration itself. The function declaration must be consistent with the full definition of the function to avoid unexpected behavior. Example of a function declaration : ```return-type function-name ( parameters ) ;```.
+- C allows us to combine function declarations and variable declarations for multiple functions on the same line. Example in code : ```double avg(int a, int b), median(int a, int b);```
 
 ### Function Arguments
 - By default in C, arguments are passed by value. We can use pointers to pass values by reference.
+- Interestingly, the comma operator is viewed differently if we encase it in parentheses. See ```int f(a,b)``` versus ```int f((a,b))```. 
 
 ### Argument Conversions
 - C allows function calls in which the types of the arguments do not match the types of the parameters. The behavior of the compiler depends on whether a function prototype was made available before the function call.
