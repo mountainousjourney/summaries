@@ -78,9 +78,9 @@ entries:
     output: web
     folderitems:
     
-      - title: Summary
-        url: /C_9-1_Functions.html
-        output: web
+    - title: Summary
+      url: /C_9-1_Functions.html
+      output: web
           
   - title: Program Organization
     output: web
@@ -90,9 +90,9 @@ entries:
       url: /C_10-1_Program-Organization.html
       output: web
 
-   - title: Pointers
-     output: web
-     folderitems:
+ - title: Pointers
+   output: web
+   folderitems:
     
     - title: Summary
       url: /C_11-1_Pointers.html
