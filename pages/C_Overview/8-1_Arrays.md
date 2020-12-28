@@ -16,7 +16,7 @@ summary:
 - Multidimensional Arrays can be declared and initialized in C using the following method : 
 - 
 ```c
-int a[2][2] = {{4,5},{2,3}}
+int a[2][2] = {{4,5},{2,3}};
 ```
 
 ### Constant Arrays
@@ -24,7 +24,7 @@ int a[2][2] = {{4,5},{2,3}}
 - Example in code : 
 
 ```c
-const int a[2][2] = {{4,5},{2,3}}
+const int a[2][2] = {{4,5},{2,3}};
 ```
 
 ### Variable-Length Arrays in C (C99 Standard)
