@@ -6,7 +6,9 @@ sidebar: C_Overview_sidebar
 permalink: C_8-1_Arrays
 summary:
 ---
-- Arrays in C are an aggregate of variables of a certain type.
+
+Arrays in C are an aggregate of variables of a certain type.
+
 ### One-Dimensional Arrays in C
 - An array in C can be declared and initialized in the same line . If the initializer is shorter than the array, the rest of the elements are given the value of zero.
 - The standard *C99* introduced designated initializers : ```int a[5] = {[1]=3, [3]=5};```

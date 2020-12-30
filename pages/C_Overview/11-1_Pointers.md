@@ -14,6 +14,7 @@ summary:
 - Pointers in C can be declared using the following syntaxes : ```int *p; char *q;```. Pointers can point to other pointers.
 - The Address operator ```&``` allow us to take the address of an existing variable. It is especially useful if we'd like to make a pointer point to an existing variable. Example in code : ```int i, p*; p = &i;```.
 - The Indirection operator ```*``` can be used to access the data a pointer points to, or the data associated with a specific address in memory.
+
 ### Pointer Assignment
 - As seen previously, we can make pointers point to exiting variables by using the Address operator, or we can simply set them equal to other pointers, using the assignment operator, for them to point to the same value as that pointer.
 

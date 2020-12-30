@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_3-1_Formatted-Input-Output
 summary:
 ---
+
 ### Using the printf statement
 - ```printf``` allows us to print formatted output to standard output or *stdout*. 
 - If we'd like to print out a variable using printf, we must have a conversion specification, which tells our program how the value shoulld be converted from its internal form (binary) to printed form (characters). Conversion Specification usually begins with the *%* character. A more complete definition of the conversion specification is *%m.pX*. *m* is the **minimum field width**, which specifies the minimum number of characters to print, *p* is the precision, whose meaning varies from a type to another, and *X* is the conversion specifier, which indicates which conversion should be applied for the value before it is printed.

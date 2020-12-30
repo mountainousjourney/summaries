@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_1-2_Strengths-Weaknesses-of-C
 summary:
 ---
+
 ### C Language Philosophy
 
 The C programming language was mainly used to write operating systems and other systems software. It retains the following concepts as a core of its philosophy :

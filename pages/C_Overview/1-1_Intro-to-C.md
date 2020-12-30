@@ -15,7 +15,7 @@ The book *The C Programming Language* was considered for a long time as the de-f
 
 A U.S. standard for C was released in 1989 to address this issue under the American National Standards Institute (ANSI), and was subsequently approved by the *International Organization for Standardization* (ISO) in 1990. This version of the language is referred as *C89/C90*, to differentiate it from the original version of C, usually referred to as *K&R C*. A revisited standard for C was also released in 1999, it is commonly referred as *C99*
 
-### C-based Languages
+### C-Based Languages
 
 There are many C-based languages, the most prominent include :
 - *C++* : Includes all features of C, with additional support for classes and OOP.

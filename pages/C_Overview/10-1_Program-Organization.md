@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_10-1_Program-Organization
 summary:
 ---
+
 ### Local Variables in C
 - Variables declared in the body of a function are said to be local to the function.
 - Static local variables causes them to have a *static storage duration*, which is a permanent storage location during the execution of the program. While a static variable in a function while not lose its value in-between executions, it will still remain inaccessible outside the scope of this function. Static variables might be interesting to use in many cases, including recursive function calls.

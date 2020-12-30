@@ -26,6 +26,7 @@ return-type function-name (parameters)
 ### Function Calls
 - Function calls consist of the function name, followed by parentheses. Any arguments we'd like to pass to the function must be in between parentheses. Also, if the function returns a value, it can be called in a statement where the retuned value is assigned to a variable using the assignment operator.
 - Function cannot return arrays, however they can return pointers to arrays.
+- Interestingly, every function has access to a ```__func``` identifier, which holds the name of the function which is currently executing. It is very interesting for debug purposes.
 
 ### Function Declarations in C
 - The location of a function declaration matters in C, as the compiler goes from top-to-bottom. If a function is called before being declared, the compiler will create an **implicit declaration** of the function.

@@ -111,6 +111,7 @@ line.o: line.c line.h
 ```
 
 - In the previous example, there are four group of lines, with each specifying a certain **rule**. The first line in each rule specifies a **target** file, followed by which file it depends. The second line specifies the command to be executed if the file needs to be rebuilt because to a change to one of its dependent files.
+
 ### Errors during Linking
 - Some errors that can't be detected during compilation will be detected during the linking process. More particularly, this happens if the definition of a function or variable is missing from a program. The linker will be unable to resolve external references to it, causing an error. These errors are mostly caused by misspellings, missing giles, or missing libraries.
 

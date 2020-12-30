@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_7-1_Basic-Types
 summary:
 ---
+
 ### Integer Types in C
 - Integers in C are signed by default, but we can specify them to be unsigned.
 - The ```int``` type's length depends on the CPU we are using, but it is usually 32-bits. We can use ```short``` and ```long``` to as a prefix to the ```int``` type to denote that we want our integer value to be stored using more memory, therefore allowing it to have a higher absolute value.

@@ -6,6 +6,7 @@ sidebar: C_Overview_sidebar
 permalink: C_2-1_C-Fundamentals
 summary:
 ---
+
 ### Basic C Program
 
 Here's an example Hello World program in C :
